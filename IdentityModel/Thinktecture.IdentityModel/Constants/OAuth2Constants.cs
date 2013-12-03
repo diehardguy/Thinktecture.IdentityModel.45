@@ -11,6 +11,7 @@ namespace Thinktecture.IdentityModel.Constants
         public const string UserName  = "username";
         public const string Scope     = "scope";
         public const string Assertion = "assertion";
+        public const string AssertionType = "assertion_type";
         public const string Password  = "password";
         public const string Code = "code";
         public const string RedirectUri = "redirect_uri";
@@ -23,6 +24,7 @@ namespace Thinktecture.IdentityModel.Constants
             public const string RefreshToken      = "refresh_token";
             public const string JWT               = "urn:ietf:params:oauth:grant-type:jwt-bearer";
             public const string Saml2             = "urn:ietf:params:oauth:grant-type:saml2-bearer";
+            public const string Assertion         = "assertion";
         }
 
         public static class ResponseTypes
